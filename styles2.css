@@ -1,0 +1,141 @@
+body { color: black;
+  background-color: white;
+  font-family: 'Helvetica', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.42857143;
+      margin: 0;
+    }
+.icon {display: block;
+  width: 70px; height: 70px;}
+
+.navbar{
+  background-color: #b6f0d5;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+nav{
+  flex: 1;
+  text-align: left;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: top;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+    color:black;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.category{
+    font-size: 20px;
+    margin:50px;
+    text-align: left;
+}
+h4{
+  margin:0;
+  font-weight: lighter;
+}
+.main{
+  background-color: #b6f0d5;
+}
+.tablecenter{
+  text-align: center;
+}
+.column{
+  display: inline-block;
+  width: 25%;
+  padding:15px;
+}
+.row {
+  display: inline-block;
+}
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.checked {
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .header1{font-size: 50px; font-weight: bold; margin: 0; padding: 0;}
+  .center{margin:auto; width: 75%;}
+  h3{font-weight: lighter;margin: 0; padding: 0;}
